@@ -1,5 +1,5 @@
 # contract
-This is the repo for building data contract repositories.
+This is the repo for building data contract based on contrat driven architecture.
 
 # steps for test and provisioning
 
