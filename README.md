@@ -1,12 +1,16 @@
-# niceflow
+# contract
+This is the repo for building data contract repositories.
 
+# steps for test and provisioning
 
 pulumi login --local
 pulumi up
 
-
+# Test contracts
 ./generate-json-schema.py
 ./validate-data.py
+
+# build the Infra and check registry
 docker-compose up
 curl http://localhost:8081/schemas/types
 ./create-schema.py
